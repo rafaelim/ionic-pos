@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Sobre</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Loja HQ</h3>
+  <p> Desenvolvido por Rafael Lima </p>
+  <ion-card>
+    <ion-card-content>
+      <ion-card-title>
+        Localizacao
+      </ion-card-title>
+    </ion-card-content>
+    <button ion-button outline item-end icon-left (click)="obterLocalizacao()">
+      Obter Localizacao
+    </button>
+  </ion-card>
+</ion-content>
